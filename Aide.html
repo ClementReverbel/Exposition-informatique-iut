@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&display=swap">
+        <link rel="icon" type="image/png" href="photo/Headerlogo.png">
+        <title>Accueil</title>
+        <link href="css/monstyle.css" rel="stylesheet" >
+    </head>
+    <body>
+        <header id="myHeader">
+            
+            <div id="menunav">
+                <ul>
+                    <img class="headerlogo" src="photo/Headerlogo.png">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="ptinfo.html">Point information</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a class="appui" href="#">Aide</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="enligne">
+                <div class="boite">
+                    <div class="text">
+                        <h1>Aide</h1>
+                        <h3>Navigation</h3>
+                        <p>Cette section est dédiée à l'explication de l'agencement des pages si celle-ci n'est pas assez claire pour vous</p>
+                        <ul>
+                            <li>La page <a href="index.html">Accueil</a> qui permet d'accèder directement à l'exposition virtuelle. C'est une exposition en visualisation 3D sur laquelle vous pouvez vous balader. Vous suivrez chronologiquement l'histoire des composants informatiques. Votre parcours sera accompagné d'image et de fichier audio pour vous expliquer chacun des points.
+                            Pour rentrer dans l'exposition, il vous suffit de cliquer sur le bouton au centre, ce qui vous redirigera vers l'exposition en elle même.</li>
+                            <li>La page <a href="contact.html">Contact</a> où vous pourrez trouver les contacts des diverses personnes ayant participées à ce projet.</li>
+                            <li>La page <a href="ptinfo.html">Point information</a> où se regroupent l'essentiel des informations sur l'exposition en elle-même (un descriptif détaillé, la nature du projet, etc.) ainsi que le plan pour trouver le bâtiment où cette dernière se réalisera.</li>
+                            <li>La page <a href="collection.html">Collection</a>, cette dernière est la restranscription entièrement écrite de l'expositon 3D. Ceci permet aux personnes n'ayant pas une bonne connexion ou bien qui cherchent une information précise d'avoir un accès simplifié au cotnenu de l'exposition virtuelle.</li>
+                            <li>La page <a href="programme">Programme</a> sur laquelle nous retrouvons le programme du jour de l'exposition avec diverses activités qui se dérouleront lors de certains jours.</li>
+                        </ul>
+                        <h3>Ressources supplémentaires</h3>
+                        <p>Ici, vous trouverez plus d'informations par rapport aux documents et sites utilisées pour notre exposition</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <h3>Nous faire un retour direction</h3>
+                        <p>Voici un petit formulaire pour directement nous envoyer un message et éviter de passer par plusieurs chemins.</p>
+                        <div class="email">
+                            <form action="mailto:reverbel.cle@gmail.com" method="post" enctype="text/plain">
+                                <h3>Mail</h3>
+                                <label for="subject">Sujet :</label><br>
+                                <input type="text" id="subject" name="subject" placeholder="Entrez le sujet de votre e-mail" required><br>
+                                <label for="message">Message :</label><br>
+                                <textarea id="message" name="message" placeholder="Entrez votre message ici" required></textarea><br>
+                                <button type="submit">Envoyer</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="chat-container">
+                        <div id="chat-display"></div>
+                        <h3>ChatBot</h3>
+                        <div class="enligne">
+                            <input type="text" id="user-input" placeholder="Posez votre question...">
+                            <button onclick="sendQuestion()">Envoyer</button>
+                        </div>
+                        <div class="text">
+                            <p>Le chatbot est là pour répondre à vos potentielles questions. Si ce dernier est insuffisant, nous vous invitons à consulter la page <a href="aide.html">aide</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="java/monjava.js"></script>
+        <footer>
+            <div class="text">
+                <p>
+                    <h2 id="trad9">Auteurs :</h2>
+                </p>
+                <ul>
+                    <li>REYNIER Zyad</li>
+                    <li>REVERBEL Clément</li>
+                    <li>MASSAT Diego</li>
+                    <li>LEMEUNIER Lou-Ann</li>
+                </ul>
+            </div>
+            <div class="text">
+                <a id="trad10" href="#">Retour en haut</a>
+            </div>
+            <div class="text">
+                <p>
+                    <h2 id="trad11">Lien des pages du site</h2>
+                </p>
+                <ul>
+                    <li><a id="Lobby" href="index.html">Accueil</a></li>
+                    <li><a id="Contact" href="contact.html">Contact</a></li>
+                    <li><a id="PtInfo" href="ptinfo.html">Point information</a></li>
+                    <li><a id="Collection" href="collection.html">Collection</a></li>
+                    <li><a id="Programme" href="programme.html">Programme</a></li>
+                    <li><a id="Aide" href="#">Aide</a></li>
+                </ul>
+            </div>
+            <div class="text">
+                <img src="photo/logoIUT.jpg">
+            </div>
+        </footer>
+    </body>
+</html>

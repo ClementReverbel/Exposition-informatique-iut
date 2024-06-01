@@ -120,3 +120,11 @@ flecheDroitecollection.addEventListener('click', () => {
     event.preventDefault();
     afficherContenuCollection('droite');
 });
+window.addEventListener('scroll', function() {
+    var body = document.body;
+    if (window.scrollY > window.innerHeight / 2) { // Déclencher l'effet de transition lorsque la moitié de la page est défilée
+        body.classList.add('scrolled');
+    } else {
+        body.classList.remove('scrolled');
+    }
+});
