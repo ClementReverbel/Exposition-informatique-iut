@@ -7,33 +7,44 @@
         <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
         <link rel="icon" type="image/png" href="Headerlogo.png">
         <title>Accueil</title>
-        <link href="monstyle.css" rel="stylesheet" >
+        <link href="../css/monstyle.css" rel="stylesheet" >
     </head>
     <body>
         <header id="myHeader">
+            
             <div id="menunav">
                 <ul>
-                    <img class="headerlogo" src="Headerlogo.png">
+                    <img class="headerlogo" src="../photo/Headerlogo.png">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="ptinfo.html">Point information</a></li>
+                    <li><a class="appui"  href="#">Point information</a></li>
                     <li><a href="collection.html">Collection</a></li>
-                    <li><a class="appui" href="#">Programme</a></li>
+                    <li><a href="programme.html">Programme</a></li>
                     <li><a href="aide.html">Aide</a></li>
                 </ul>
             </div>
         </header>
         <main>
             <div class="enligne">
-                <div class="boite">
-                    <div class="text">
-                        <h1 class="centre">Programme</h1>
-                        <h3>Matin</h3>
-                        <p>******************</p>
-                        <h3>Après-midi</h3>
-                        <p>******************</p>
-                        <h3>Soir</h3>
-                        <p>******************</p>
+                <div class="encolonne">
+                    <div class="boite">
+                        <a href="#" id="flecheGaucheptinfo"><img class="fleche" src="../photo/flechegauche.png"></a>
+                        <div class="encolonne">
+                            <h1>Informations utiles</h1>
+                            <div class="text" id="titreptinfo">
+                                <h3>Titre 1</h3>
+                            </div>
+                            <div class="text" id="contenuptinfo">
+                                <p>Contenu 1</p>
+                            </div>
+                        </div>
+                        <a href="#" id="flecheDroiteptinfo"><img class="fleche droite" src="../photo/flechedroite.png"></a>
+                    </div>
+                    <div class="boite">
+                        <div class="text">
+                            <h1>Plan</h1>
+                            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1215.4172083007709!2d1.4660906052767624!3d43.56976746659975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebd0016fa0d9f%3A0x76017489e8fc38c!2sIUT%20Informatique%20de%20Paul%20Sabatier!5e0!3m2!1sfr!2sfr!4v1717236024999!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -51,7 +62,7 @@
                 </div>
             </div>
         </main>
-        <script src="monjava.js"></script>
+        <script src="../java/javaptinfo.js"></script>
         <footer>
             <div class="text">
                 <p>
@@ -74,14 +85,14 @@
                 <ul>
                     <li><a id="Lobby" href="index.html">Accueil</a></li>
                     <li><a id="Contact" href="Contact.html">Contact</a></li>
-                    <li><a id="PtInfo" href="ptinfo.html">Point information</a></li>
+                    <li><a id="PtInfo" href="#">Point information</a></li>
                     <li><a id="Collection" href="collection.html">Collection</a></li>
-                    <li><a id="Programme" href="#.html">Programme</a></li>
+                    <li><a id="Programme" href="programme.html">Programme</a></li>
                     <li><a id="Aide" href="aide.html">Aide</a></li>
                 </ul>
             </div>
             <div class="text">
-                <img src="logoIUT.jpg">
+                <img src="../photo/logoIUT.jpg">
             </div>
         </footer>
     </body>
