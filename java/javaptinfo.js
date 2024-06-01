@@ -24,7 +24,7 @@ window.onscroll = function() {
 
         setTimeout(function() {
             scrolling = false;
-        }, 100); // Attendez 100 millisecondes avant de réinitialiser scrolling à false
+        }, 20); // Attendez 100 millisecondes avant de réinitialiser scrolling à false
     }
 }
 

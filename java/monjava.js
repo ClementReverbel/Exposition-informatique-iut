@@ -24,7 +24,7 @@ window.onscroll = function() {
 
         setTimeout(function() {
             scrolling = false;
-        }, 100); // Attendez 100 millisecondes avant de réinitialiser scrolling à false
+        }, 20); // Attendez 100 millisecondes avant de réinitialiser scrolling à false
     }
 }
 
@@ -77,11 +77,3 @@ function sendQuestion() {
     document.getElementById("user-input").value = "";
     scrollToBottom();
 }
-window.addEventListener('scroll', function() {
-    var body = document.body;
-    if (window.scrollY > window.innerHeight / 2) { // Déclencher l'effet de transition lorsque la moitié de la page est défilée
-        body.classList.add('scrolled');
-    } else {
-        body.classList.remove('scrolled');
-    }
-});
