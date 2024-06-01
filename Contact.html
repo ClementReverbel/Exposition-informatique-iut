@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="Headerlogo.png">
+        <title>Accueil</title>
+        <link href="monstyle.css" rel="stylesheet" >
+    </head>
+    <body>
+        <header id="myHeader">
+            
+            <div id="menunav">
+                <ul>
+                    <img class="headerlogo" src="Headerlogo.png">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a class="appui" href="#">Contact</a></li>
+                    <li><a href="ptinfo.html">Point information</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="aide.html">Aide</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="enligne">
+                <div class="boite">
+                    <div class="text">
+                        <h1>Contact</h1>
+                        <h2>Numéro de téléphone :</h2>
+                        <ul>
+                            <li>07 00 00 00 00</li>
+                            <li>07 00 00 00 00</li>
+                            <li>07 00 00 00 00</li>
+                        </ul>
+                        <h2>Adresse e-mail :</h2>
+                        <ul>
+                            <li><a class="mail" href="mailto:iut@gmail.com">iut@gmail.com</a></li>
+                            <li><a class="mail" href="mailto:iut@gmail.com">iut@gmail.com</a></li>
+                            <li><a class="mail" href="mailto:iut@gmail.com">iut@gmail.com</a></li>
+                        </ul>
+                        <h2>Réseaux sociaux :</h2>
+                        <div class="enligne">
+                            <img class="headerlogo" src="Headerlogo.png">
+                            <img class="headerlogo" src="Headerlogo.png">
+                            <img class="headerlogo" src="Headerlogo.png">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="chat-container">
+                        <div id="chat-display"></div>
+                        <h3>ChatBot</h3>
+                        <div class="enligne">
+                            <input type="text" id="user-input" placeholder="Posez votre question...">
+                            <button onclick="sendQuestion()">Envoyer</button>
+                        </div>
+                        <div class="text">
+                            <p>Le chatbot est là pour répondre à vos potentielles questions. Si ce dernier est insuffisant, nous vous invitons à consulter la page <a href="aide.html">aide</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="monjava.js"></script>
+        <footer>
+            <div class="text">
+                <p>
+                    <h2 id="trad9">Auteurs :</h2>
+                </p>
+                <ul>
+                    <li>REYNIER Zyad</li>
+                    <li>REVERBEL Clément</li>
+                    <li>MASSAT Diego</li>
+                    <li>LEMEUNIER Lou-Ann</li>
+                </ul>
+            </div>
+            <div class="text">
+                <a id="trad10" href="#">Retour en haut</a>
+            </div>
+            <div class="text">
+                <p>
+                    <h2 id="trad11">Lien des pages du site</h2>
+                </p>
+                <ul>
+                    <li><a id="Lobby" href="index.html">Accueil</a></li>
+                    <li><a id="Contact" href="#">Contact</a></li>
+                    <li><a id="PtInfo" href="ptinfo.html">Point information</a></li>
+                    <li><a id="Collection" href="collection.html">Collection</a></li>
+                    <li><a id="Programme" href="programme.html">Programme</a></li>
+                    <li><a id="Aide" href="aide.html">Aide</a></li>
+                </ul>
+            </div>
+            <div class="text">
+                <img src="logoIUT.jpg">
+            </div>
+        </footer>
+    </body>
+</html>
