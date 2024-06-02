@@ -377,7 +377,7 @@ h3:hover {
         text-align: left;
         margin-top: 1em;
     }
-    #menuham:hover .dropdown-child {
+    .dropdown:hover .dropdown-child {
         display: block;
     }
 }
