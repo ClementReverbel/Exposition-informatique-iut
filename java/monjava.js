@@ -27,8 +27,6 @@ window.onscroll = function() {
         }, 20); // Attendez 100 millisecondes avant de réinitialiser scrolling à false
     }
 }
-
-
 var userInputField = document.getElementById("user-input");
 
 userInputField.addEventListener("keydown", function(event) {
@@ -77,3 +75,12 @@ function sendQuestion() {
     document.getElementById("user-input").value = "";
     scrollToBottom();
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerBtn = document.querySelector('.hamburger-menu-btn');
+    const menuList = document.querySelector('.menu-list');
+  
+    hamburgerBtn.addEventListener('click', function() {
+      menuList.classList.toggle('show');
+    });
+  });
