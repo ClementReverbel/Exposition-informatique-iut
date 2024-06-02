@@ -238,17 +238,16 @@ footer img{
 
 .fleche{
     align-items: center;
-    max-width: 30%;
-    height:fit-content;
+    width: 30%;
+    height:1%;
 }
 
 .droite {
-    margin-left: 50%;
+    margin-left: 70%;
 }
 
 .boite a{
     width: 20%;
-    height: 100%;
 }
 
 .reseau{
@@ -382,11 +381,6 @@ h3:hover {
     }
     .dropdown:hover .dropdown-child {
         display: block;
-    }
-    .fleche{
-        align-items: center;
-        max-width: 50%;
-        height:5%;
     }
     .chat-container{
         max-width: 75%;
