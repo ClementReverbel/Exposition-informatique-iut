@@ -13,6 +13,9 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% de la hauteur de la fenêtre visible */
     margin: 0;
     margin: 0;
     background-size: cover;
@@ -53,6 +56,7 @@ h1{
 }
 
 main{
+    flex: 1;
     margin-top: 200px ; 
 }
 
@@ -60,7 +64,7 @@ main{
     position:relative;
     border: #333 solid 5px;
     background: rgba(250, 250, 250, 0.5);
-    margin:0 5% 0 5%;
+    margin:0 3% 0 3%;
     width: 90%;
     padding: 1em;
     display: flex;
@@ -88,7 +92,9 @@ main{
 #menunav a.appui{
     background-color: #82a5b0;
 }
-
+#menunav li{
+    margin-top: 3.5em;
+}
 #menunav a{
     background-color: lightgrey;
     padding: 1em;
@@ -102,7 +108,6 @@ main{
     display: flex;
     text-decoration: None;
     font-size: larger;
-    margin-top: 3.5em;
 }
 
 #menunav a:hover {
@@ -315,8 +320,8 @@ h3:hover {
     transition: 0.5s ease-in;
 }
 
-#menuham{
-    display:none;
+.dropdown{
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -334,14 +339,45 @@ h3:hover {
     header li{
         display: none;
     }
-    #menuham{
-        display:flex;
-        width: 20%;
-        margin-top: 2em;
-        height: fit-content;
-    }
 
     footer{
         height: 20%;
+    }
+    .enligne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        margin-top: 30%;
+    }
+    .enligne > *{
+        margin-top : 5%;
+    }    
+    .menuderoulant{
+        width: 5%;
+        margin-top: 2em;
+    }
+    .mainmenubtn {
+        background: none;
+        border: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        width: 100%;
+        margin-top: 3em;
+    }
+    .dropdown-child a {
+        width: 35%;
+        margin-left: auto;
+        text-align: left;
+        margin-top: 1em;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
     }
 }
