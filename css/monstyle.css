@@ -330,7 +330,7 @@ h3:hover {
     }
     .headerlogo{
         width: 20%;
-        height: fit-content;
+        height:min-content;
     }
     .boite{
         margin: 0% 5% 0% 5%;
