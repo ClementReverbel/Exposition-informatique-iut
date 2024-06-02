@@ -325,6 +325,7 @@ h3:hover {
     }
     .headerlogo{
         width: 20%;
+        height: fit-content;
     }
     .boite{
         margin: 0% 5% 0% 5%;
@@ -335,6 +336,9 @@ h3:hover {
     }
     #menuham{
         display:flex;
+        width: 20%;
+        margin-top: 2em;
+        height: fit-content;
     }
 
     footer{
