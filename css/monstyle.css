@@ -252,7 +252,9 @@ footer img{
 }
 
 .reseau{
+    display: block;
     width:50%;
+    margin-left: 25%
 }
 
 img[title] {
@@ -326,11 +328,12 @@ h3:hover {
 
 @media screen and (max-width: 768px) {
     header{
+        width: 98%;
         height: 10%;
     }
     .headerlogo{
         width: 20%;
-        height:71px;
+        height:20%;
     }
     .boite{
         margin: 0% 5% 0% 5%;
@@ -380,4 +383,12 @@ h3:hover {
     .dropdown:hover .dropdown-child {
         display: block;
     }
+    .fleche{
+        align-items: center;
+        max-width: 50%;
+        height:50%;
+    }
+    .chat-container{
+        max-width: 75%;
+    }  
 }
