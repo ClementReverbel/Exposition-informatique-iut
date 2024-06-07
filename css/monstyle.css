@@ -321,6 +321,14 @@ a img{
     width: 30%;
 }
 
+#imagecollection{
+    width: 30%;
+}
+
+.tailleboite{
+    min-height: 420px;
+}
+
 @media screen and (max-width: 768px) {
     header{
         width: 98%;
