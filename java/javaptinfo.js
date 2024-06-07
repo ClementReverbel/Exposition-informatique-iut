@@ -79,17 +79,15 @@ function sendQuestion() {
 }
 
 const contenuptinfo = [
-    "Contenu 1",
-    "Contenu 2",
-    "Contenu 3",
-    "Contenu 4"
+    "Cette exposition est issue d'un travail étudiant. Ce travail avait pour thème d'organiser une exposition virtuelle sur l'histoire de l'informatique. De notre côté, nous avons décider de choisir les composants informatiques. Ses derniers étant des objets physiques et non pas des concepts, cela est plus facile pour le lecteur/visiteur de se répérer et de visualiser la chose. Vu qu'une grande partie de l'informatique est constituée de concept peu parlant, il fallait faire quelque chose de simpe qui parlait à tous.",
+    "Ce travail a été fait au sein de l'IUT Informatique de Paul Sabatier. Nos professeurs (Madame NOTTIN et Madame RASPAUD) nous ont guidés tout le long pour sortir le travail qui correspondait le plus à leur attente. Nous étions 4 étudiants : REYNIER Zyad, MASSAT Diego, LEMEUNIER Lou-Ann, REVERBEL Clément. Nous avons également demandé un peu d'aide à une association à Toulouse : La Rebooterie. Elle nous a permit de récupérer quelques pièces détachées pour notre exposition.",
+    "Ce projet était assez difficile à réaliser. C'était une première exposition virtuelle pour nous et nous voulions faire quelque chose d'assez immersif. Evidemment tout ce travail est amateur et loin d'être parfait. Nous avons fait de notre mieux avec les informations que nous avons trouvés et avec le matériel que nous avions. Certaines de nos attentes, on était revu à la baisse mais nous sommes tout de même satisfait du travail que nous avons rendu."
 ];
 
 const titreptinfo = [
-    "Titre 1",
-    "Titre 2",
-    "Titre 3",
-    "Titre 4"
+    "Description du projet",
+    "Créateur du projet",
+    "Difficultés rencontrées",
 ];
 
 let index = 0;

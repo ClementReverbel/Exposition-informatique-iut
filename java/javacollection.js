@@ -100,6 +100,18 @@ const titrecollection = [
     "Disque SSD Amovible - 256 Go",
 ];
 
+const audiocollection = [
+    "audio/Disquette8.mp3",
+    "audio/Disquette35.mp3",
+    "audio/CassetteVHS.mp3",
+    "audio/Bandemagnetique.mp3",
+    "audio/LecteurDVD.mp3",
+    "audio/Disquedur10.mp3",
+    "audio/Disquedur512.mp3",
+    "audio/DisqueSSD.mp3"
+];
+
+
 const imagecollection = [
     "photo/Disquette8.jpg",
     "photo/Disquette35.jpg",
@@ -114,7 +126,8 @@ const imagecollection = [
 let indexCollection = 0;
 const textElementCollection = document.getElementById('contenucollection');
 const titleElementCollection = document.getElementById('titrecollection');
-const imageElementCollection = document.getElementById('imagecollection')
+const imageElementCollection = document.getElementById('imagecollection');
+const audioElementCollection = document.getElementById('audiocollection'); 
 const flecheGauchecollection = document.getElementById('flecheGauchecollection');
 const flecheDroitecollection = document.getElementById('flecheDroitecollection');
 
@@ -126,6 +139,8 @@ function afficherContenuCollection(direction) {
     }
     textElementCollection.innerHTML = `<p>${contenucollection[indexCollection]}</p>`;
     titleElementCollection.innerHTML = `<h3>${titrecollection[indexCollection]}</h3>`;
+    audioElementCollection.src = audiocollection[indexCollection];
+    audioElementCollection.load();
     imageElementCollection.src = imagecollection[indexCollection];
     textElementCollection.classList.remove('contenu-gauche', 'contenu-droite');
     void textElementCollection.offsetWidth; // Réinitialiser le rendu

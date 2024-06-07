@@ -325,9 +325,13 @@ a img{
     width: 30%;
 }
 
-.tailleboite{
-    min-height: 420px;
+.tailleboitecollection{
+    min-height: 500px ;
 }
+.tailleboiteptinfo{
+    min-height: 300px;
+}
+
 
 @media screen and (max-width: 768px) {
     header{
