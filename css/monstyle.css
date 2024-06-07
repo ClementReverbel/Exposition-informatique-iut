@@ -332,6 +332,10 @@ a img{
 
 
 @media screen and (max-width: 768px) {
+    .fleche{
+        width: 50%;
+        margin-left: 20%;
+    }
     header{
         width: 98%;
         height: 10%;
