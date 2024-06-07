@@ -325,12 +325,10 @@ a img{
     width: 30%;
 }
 
-.tailleboitecollection{
-    min-height: 500px ;
+.boiteup{
+    align-items: start;
 }
-.tailleboiteptinfo{
-    min-height: 300px;
-}
+
 
 
 @media screen and (max-width: 768px) {
