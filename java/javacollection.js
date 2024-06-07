@@ -118,9 +118,15 @@ const audiocollection = [
     "audio/Disquette35.mp3",
     "audio/CassetteVHS.mp3",
     "audio/LecteurDVD.mp3",
+    "audio/fakir.mp3",
+    "audio/motorola.mp3",
+    "audio/pentium.mp3",
     "audio/Disquedur10.mp3",
     "audio/Disquedur512.mp3",
-    "audio/DisqueSSD.mp3"
+    "audio/DisqueSSD.mp3",
+    "audio/DRAM.mp3",
+    "audio/DRR1.mp3",
+    "audio/DRR2.mp3"
 ];
 
 
