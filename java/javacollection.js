@@ -125,8 +125,8 @@ const audiocollection = [
     "audio/Disquedur512.mp3",
     "audio/DisqueSSD.mp3",
     "audio/DRAM.mp3",
-    "audio/DRR1.mp3",
-    "audio/DRR2.mp3"
+    "audio/DDR1.mp3",
+    "audio/DDR2.mp3"
 ];
 
 
