@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="20870" version="7.1 beta 4">
+<pano2vrconfig version="7.1 beta 4" rev="20870">
   <tour>
     <panorama>
       <id>node1</id>
@@ -92,7 +92,7 @@
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
           <customimage>IMAGES/fleche.png</customimage>
-          <urlsafecustomimage>fleche-6.png</urlsafecustomimage>
+          <urlsafecustomimage>fleche.png</urlsafecustomimage>
           <use3d>0</use3d>
           <width>64</width>
           <height>40</height>
@@ -283,7 +283,7 @@
           <id>Point03</id>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>http://localhost:54111/rsLpLiFu~dlnz91/EXPO_PT2.html</url>
+          <url>http://localhost:54750/rsLpLiFu~i1wp6i/EXPO_PT2.html</url>
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
@@ -652,6 +652,34 @@
         <skincolorsconfiguration>
           <value id="Accent Color">4290963474</value>
         </skincolorsconfiguration>
+      </htmlcss>
+      <htmlcss>
+        <html>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoomafterinfov>140</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2680</tilesize>
+        <filename>output/pano.xml</filename>
       </htmlcss>
     </output>
     <streetview/>
