@@ -92,6 +92,7 @@
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
           <customimage>IMAGES/fleche.png</customimage>
+          <urlsafecustomimage>fleche-6.png</urlsafecustomimage>
           <use3d>0</use3d>
           <width>64</width>
           <height>40</height>
