@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="7.1 beta 4" rev="20870">
+<pano2vrconfig rev="20870" version="7.1 beta 4">
   <tour>
     <panorama>
       <id>node1</id>
@@ -283,13 +283,13 @@
           <id>Point03</id>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>http://localhost:62118/S18EGT9M~xtoa5c/EXPO_PT2.html</url>
+          <url>http://localhost:54111/rsLpLiFu~dlnz91/EXPO_PT2.html</url>
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
           <customimage>IMAGES/fleche.png</customimage>
-          <urlsafecustomimage>fleche-6.png</urlsafecustomimage>
+          <urlsafecustomimage>fleche-4.png</urlsafecustomimage>
           <use3d>0</use3d>
           <width>66</width>
           <height>41</height>
